@@ -1,0 +1,50 @@
+{
+    "prefix": "tebe!",
+    "boot": {
+        "commands": "commands",
+        "events": "events",
+        "databases": "databases",
+        "databasesSchemes": "databasesSchemes"
+    },
+    "loader": {
+        "events": {
+            "critical": ["event", "run"]
+        },
+        "commands": {
+            "critical": ["category", "run", "permission", "name"],
+            "warning": ["description", "loader", "aliases", "discordPermissions", "arguments"]
+        },
+        "databasesSchemes": {
+            "critical": ["type", "data"]
+        }
+    },
+    "preload": {
+        "activity": {
+            "name": "TEBE by Tsumiki_GFX",
+            "type": "PLAYING"
+        }
+    },
+    "permissions": [
+        {
+            "name": "developer",
+            "permissions": [],
+            "developer": true
+        },
+        {
+            "name": "none",
+            "permissions": [],
+            "developer": false
+        }
+    ],
+    "required": {
+        "commands": ["help"],
+        "events": ["ready"],
+        "config": ["prefix", "boot", "loader", "permissions", "developers", "required"]
+    },
+    "importantID": {
+        "sp_server": null,
+        "errors": null,
+        "support": null
+    },
+    "developers": []
+}

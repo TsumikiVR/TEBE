@@ -1,0 +1,33 @@
+{
+  "name": "tebe",
+  "version": "1.0.0",
+  "description": "Tsumiki's Easy Bot Environnement (TEBE) is a full & ready Handler Environnement for a Discord Bot",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Tsumiki_GFX",
+  "license": "CC BY-ND 4.0",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "discord-buttons": "^3.2.1",
+    "discord.js": "^12.5.3",
+    "dotenv": "^8.2.0",
+    "lowdb": "^1.0.0",
+    "module-details": "^2.0.1",
+    "moment": "^2.29.1",
+    "moment-duration-format": "^2.3.2",
+    "normalize-url": ">=4.5.1",
+    "rgb2hex": "^0.2.5",
+    "snekfetch": "^4.0.4",
+    "string-similarity": "^4.0.4",
+    "ws": ">=7.4.6"
+  },
+  "repository": {
+    "url": "https://github.com/TsumikiVR/TEBE"
+  },
+  "keywords": [
+    "node"
+  ]
+}
